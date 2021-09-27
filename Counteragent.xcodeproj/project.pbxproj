@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB26ABD627014AAB00DAEE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABD527014AAB00DAEE48 /* AppDelegate.swift */; };
+		EB26ABD827014AAB00DAEE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABD727014AAB00DAEE48 /* SceneDelegate.swift */; };
+		EB26ABDB27014AAB00DAEE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABD927014AAB00DAEE48 /* LaunchScreen.storyboard */; };
+		EB26ABDE27014AAB00DAEE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABDC27014AAB00DAEE48 /* Main.storyboard */; };
+		EB26ABE727014AAB00DAEE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABE627014AAB00DAEE48 /* AppDelegate.swift */; };
+		EB26ABEA27014AAB00DAEE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABE827014AAB00DAEE48 /* Main.storyboard */; };
+		EB26ABF227014AAB00DAEE48 /* Counteragent Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB26ABF127014AAB00DAEE48 /* Counteragent Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB26ABFC27014AAB00DAEE48 /* Counteragent Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB26AC0227014AAB00DAEE48 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC527014AAA00DAEE48 /* Main.html */; };
+		EB26AC0327014AAB00DAEE48 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC527014AAA00DAEE48 /* Main.html */; };
+		EB26AC0427014AAB00DAEE48 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC727014AAA00DAEE48 /* Icon.png */; };
+		EB26AC0527014AAB00DAEE48 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC727014AAA00DAEE48 /* Icon.png */; };
+		EB26AC0627014AAB00DAEE48 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC827014AAA00DAEE48 /* Style.css */; };
+		EB26AC0727014AAB00DAEE48 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC827014AAA00DAEE48 /* Style.css */; };
+		EB26AC0827014AAB00DAEE48 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC927014AAA00DAEE48 /* Script.js */; };
+		EB26AC0927014AAB00DAEE48 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC927014AAA00DAEE48 /* Script.js */; };
+		EB26AC0A27014AAB00DAEE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCA27014AAA00DAEE48 /* ViewController.swift */; };
+		EB26AC0B27014AAB00DAEE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCA27014AAA00DAEE48 /* ViewController.swift */; };
+		EB26AC0C27014AAB00DAEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */; };
+		EB26AC0D27014AAB00DAEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */; };
+		EB26AC0E27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
+		EB26AC0F27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
+		EB26AC2A27014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
+		EB26AC2B27014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
+		EB26AC2C27014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
+		EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
+		EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
+		EB26AC2F27014AAC00DAEE48 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2727014AAB00DAEE48 /* Info.plist */; };
+		EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
+		EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
+		EB26AC3227014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
+		EB26AC3327014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
+		EB26AC3427014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
+		EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
+		EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
+		EB26AC3727014AAC00DAEE48 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2727014AAB00DAEE48 /* Info.plist */; };
+		EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
+		EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB26ABF327014AAB00DAEE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB26ABBF27014AAA00DAEE48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB26ABF027014AAB00DAEE48;
+			remoteInfo = "Counteragent Extension (iOS)";
+		};
+		EB26ABFD27014AAB00DAEE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB26ABBF27014AAA00DAEE48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB26ABFA27014AAB00DAEE48;
+			remoteInfo = "Counteragent Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB26AC1527014AAB00DAEE48 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB26ABF227014AAB00DAEE48 /* Counteragent Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26AC1C27014AAB00DAEE48 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB26ABFC27014AAB00DAEE48 /* Counteragent Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB26ABC627014AAA00DAEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		EB26ABC727014AAA00DAEE48 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EB26ABC827014AAA00DAEE48 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		EB26ABC927014AAA00DAEE48 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		EB26ABCA27014AAA00DAEE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EB26ABD227014AAB00DAEE48 /* Counteragent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counteragent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26ABD527014AAB00DAEE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB26ABD727014AAB00DAEE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB26ABDA27014AAB00DAEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB26ABDD27014AAB00DAEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB26ABDF27014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26ABE427014AAB00DAEE48 /* Counteragent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counteragent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26ABE627014AAB00DAEE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB26ABE927014AAB00DAEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB26ABEB27014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26ABEC27014AAB00DAEE48 /* Counteragent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Counteragent.entitlements; sourceTree = "<group>"; };
+		EB26ABF127014AAB00DAEE48 /* Counteragent Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Counteragent Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26ABF627014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Counteragent Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26AC0027014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB26AC0127014AAB00DAEE48 /* Counteragent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Counteragent.entitlements; sourceTree = "<group>"; };
+		EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SafariWebExtensionHandler.swift; path = Resources/SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EB26AC2227014AAB00DAEE48 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		EB26AC2327014AAB00DAEE48 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		EB26AC2427014AAB00DAEE48 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		EB26AC2527014AAB00DAEE48 /* counteragent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counteragent.png; path = Resources/counteragent.png; sourceTree = "<group>"; };
+		EB26AC2627014AAB00DAEE48 /* Counteragent_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Counteragent_Extension.entitlements; path = Resources/Counteragent_Extension.entitlements; sourceTree = "<group>"; };
+		EB26AC2727014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		EB26AC2827014AAB00DAEE48 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = Resources/contentScript.js; sourceTree = "<group>"; };
+		EB26AC2927014AAB00DAEE48 /* counteragent.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = counteragent.css; path = Resources/counteragent.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB26ABCF27014AAB00DAEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABE127014AAB00DAEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABEE27014AAB00DAEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABF827014AAB00DAEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB26ABBE27014AAA00DAEE48 = {
+			isa = PBXGroup;
+			children = (
+				EB26ABC327014AAA00DAEE48 /* Shared (App) */,
+				EB26ABCC27014AAB00DAEE48 /* Shared (Extension) */,
+				EB26ABD427014AAB00DAEE48 /* iOS (App) */,
+				EB26ABE527014AAB00DAEE48 /* macOS (App) */,
+				EB26ABF527014AAB00DAEE48 /* iOS (Extension) */,
+				EB26ABFF27014AAB00DAEE48 /* macOS (Extension) */,
+				EB26ABD327014AAB00DAEE48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB26ABC327014AAA00DAEE48 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABCA27014AAA00DAEE48 /* ViewController.swift */,
+				EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */,
+				EB26ABC427014AAA00DAEE48 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		EB26ABC427014AAA00DAEE48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABC527014AAA00DAEE48 /* Main.html */,
+				EB26ABC727014AAA00DAEE48 /* Icon.png */,
+				EB26ABC827014AAA00DAEE48 /* Style.css */,
+				EB26ABC927014AAA00DAEE48 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB26ABCC27014AAB00DAEE48 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26AC2027014AAB00DAEE48 /* Resources */,
+				EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		EB26ABD327014AAB00DAEE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABD227014AAB00DAEE48 /* Counteragent.app */,
+				EB26ABE427014AAB00DAEE48 /* Counteragent.app */,
+				EB26ABF127014AAB00DAEE48 /* Counteragent Extension.appex */,
+				EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB26ABD427014AAB00DAEE48 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABD527014AAB00DAEE48 /* AppDelegate.swift */,
+				EB26ABD727014AAB00DAEE48 /* SceneDelegate.swift */,
+				EB26ABD927014AAB00DAEE48 /* LaunchScreen.storyboard */,
+				EB26ABDC27014AAB00DAEE48 /* Main.storyboard */,
+				EB26ABDF27014AAB00DAEE48 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		EB26ABE527014AAB00DAEE48 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABE627014AAB00DAEE48 /* AppDelegate.swift */,
+				EB26ABE827014AAB00DAEE48 /* Main.storyboard */,
+				EB26ABEB27014AAB00DAEE48 /* Info.plist */,
+				EB26ABEC27014AAB00DAEE48 /* Counteragent.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		EB26ABF527014AAB00DAEE48 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26ABF627014AAB00DAEE48 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		EB26ABFF27014AAB00DAEE48 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				EB26AC0027014AAB00DAEE48 /* Info.plist */,
+				EB26AC0127014AAB00DAEE48 /* Counteragent.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		EB26AC2027014AAB00DAEE48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */,
+				EB26AC2227014AAB00DAEE48 /* background.js */,
+				EB26AC2327014AAB00DAEE48 /* images */,
+				EB26AC2427014AAB00DAEE48 /* manifest.json */,
+				EB26AC2527014AAB00DAEE48 /* counteragent.png */,
+				EB26AC2627014AAB00DAEE48 /* Counteragent_Extension.entitlements */,
+				EB26AC2727014AAB00DAEE48 /* Info.plist */,
+				EB26AC2827014AAB00DAEE48 /* contentScript.js */,
+				EB26AC2927014AAB00DAEE48 /* counteragent.css */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB26ABD127014AAB00DAEE48 /* Counteragent (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26AC1627014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent (iOS)" */;
+			buildPhases = (
+				EB26ABCE27014AAB00DAEE48 /* Sources */,
+				EB26ABCF27014AAB00DAEE48 /* Frameworks */,
+				EB26ABD027014AAB00DAEE48 /* Resources */,
+				EB26AC1527014AAB00DAEE48 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB26ABF427014AAB00DAEE48 /* PBXTargetDependency */,
+			);
+			name = "Counteragent (iOS)";
+			productName = "Counteragent (iOS)";
+			productReference = EB26ABD227014AAB00DAEE48 /* Counteragent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB26ABE327014AAB00DAEE48 /* Counteragent (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26AC1D27014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent (macOS)" */;
+			buildPhases = (
+				EB26ABE027014AAB00DAEE48 /* Sources */,
+				EB26ABE127014AAB00DAEE48 /* Frameworks */,
+				EB26ABE227014AAB00DAEE48 /* Resources */,
+				EB26AC1C27014AAB00DAEE48 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB26ABFE27014AAB00DAEE48 /* PBXTargetDependency */,
+			);
+			name = "Counteragent (macOS)";
+			productName = "Counteragent (macOS)";
+			productReference = EB26ABE427014AAB00DAEE48 /* Counteragent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB26ABF027014AAB00DAEE48 /* Counteragent Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26AC1227014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent Extension (iOS)" */;
+			buildPhases = (
+				EB26ABED27014AAB00DAEE48 /* Sources */,
+				EB26ABEE27014AAB00DAEE48 /* Frameworks */,
+				EB26ABEF27014AAB00DAEE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counteragent Extension (iOS)";
+			productName = "Counteragent Extension (iOS)";
+			productReference = EB26ABF127014AAB00DAEE48 /* Counteragent Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EB26ABFA27014AAB00DAEE48 /* Counteragent Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB26AC1927014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent Extension (macOS)" */;
+			buildPhases = (
+				EB26ABF727014AAB00DAEE48 /* Sources */,
+				EB26ABF827014AAB00DAEE48 /* Frameworks */,
+				EB26ABF927014AAB00DAEE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counteragent Extension (macOS)";
+			productName = "Counteragent Extension (macOS)";
+			productReference = EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB26ABBF27014AAA00DAEE48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EB26ABD127014AAB00DAEE48 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EB26ABE327014AAB00DAEE48 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EB26ABF027014AAB00DAEE48 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EB26ABFA27014AAB00DAEE48 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = EB26ABC227014AAA00DAEE48 /* Build configuration list for PBXProject "Counteragent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB26ABBE27014AAA00DAEE48;
+			productRefGroup = EB26ABD327014AAB00DAEE48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB26ABD127014AAB00DAEE48 /* Counteragent (iOS) */,
+				EB26ABE327014AAB00DAEE48 /* Counteragent (macOS) */,
+				EB26ABF027014AAB00DAEE48 /* Counteragent Extension (iOS) */,
+				EB26ABFA27014AAB00DAEE48 /* Counteragent Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB26ABD027014AAB00DAEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0427014AAB00DAEE48 /* Icon.png in Resources */,
+				EB26ABDB27014AAB00DAEE48 /* LaunchScreen.storyboard in Resources */,
+				EB26AC0227014AAB00DAEE48 /* Main.html in Resources */,
+				EB26AC0827014AAB00DAEE48 /* Script.js in Resources */,
+				EB26AC0C27014AAB00DAEE48 /* Assets.xcassets in Resources */,
+				EB26ABDE27014AAB00DAEE48 /* Main.storyboard in Resources */,
+				EB26AC0627014AAB00DAEE48 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABE227014AAB00DAEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0527014AAB00DAEE48 /* Icon.png in Resources */,
+				EB26AC0727014AAB00DAEE48 /* Style.css in Resources */,
+				EB26ABEA27014AAB00DAEE48 /* Main.storyboard in Resources */,
+				EB26AC0927014AAB00DAEE48 /* Script.js in Resources */,
+				EB26AC0D27014AAB00DAEE48 /* Assets.xcassets in Resources */,
+				EB26AC0327014AAB00DAEE48 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABEF27014AAB00DAEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC3427014AAC00DAEE48 /* images in Resources */,
+				EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */,
+				EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */,
+				EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */,
+				EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */,
+				EB26AC3727014AAC00DAEE48 /* Info.plist in Resources */,
+				EB26AC3327014AAC00DAEE48 /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABF927014AAB00DAEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC2C27014AAC00DAEE48 /* images in Resources */,
+				EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */,
+				EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */,
+				EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */,
+				EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */,
+				EB26AC2F27014AAC00DAEE48 /* Info.plist in Resources */,
+				EB26AC2B27014AAC00DAEE48 /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB26ABCE27014AAB00DAEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0A27014AAB00DAEE48 /* ViewController.swift in Sources */,
+				EB26ABD627014AAB00DAEE48 /* AppDelegate.swift in Sources */,
+				EB26ABD827014AAB00DAEE48 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABE027014AAB00DAEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0B27014AAB00DAEE48 /* ViewController.swift in Sources */,
+				EB26ABE727014AAB00DAEE48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABED27014AAB00DAEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0E27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
+				EB26AC3227014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB26ABF727014AAB00DAEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB26AC0F27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
+				EB26AC2A27014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB26ABF427014AAB00DAEE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB26ABF027014AAB00DAEE48 /* Counteragent Extension (iOS) */;
+			targetProxy = EB26ABF327014AAB00DAEE48 /* PBXContainerItemProxy */;
+		};
+		EB26ABFE27014AAB00DAEE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB26ABFA27014AAB00DAEE48 /* Counteragent Extension (macOS) */;
+			targetProxy = EB26ABFD27014AAB00DAEE48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB26ABC527014AAA00DAEE48 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26ABC627014AAA00DAEE48 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		EB26ABD927014AAB00DAEE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26ABDA27014AAB00DAEE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB26ABDC27014AAB00DAEE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26ABDD27014AAB00DAEE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB26ABE827014AAB00DAEE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB26ABE927014AAB00DAEE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB26AC1027014AAB00DAEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB26AC1127014AAB00DAEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB26AC1327014AAB00DAEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent.Extension;
+				PRODUCT_NAME = "Counteragent Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB26AC1427014AAB00DAEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent.Extension;
+				PRODUCT_NAME = "Counteragent Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB26AC1727014AAB00DAEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
+				PRODUCT_NAME = Counteragent;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB26AC1827014AAB00DAEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
+				PRODUCT_NAME = Counteragent;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB26AC1A27014AAB00DAEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent.Extension;
+				PRODUCT_NAME = "Counteragent Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB26AC1B27014AAB00DAEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent.Extension;
+				PRODUCT_NAME = "Counteragent Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB26AC1E27014AAB00DAEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
+				PRODUCT_NAME = Counteragent;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB26AC1F27014AAB00DAEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
+				PRODUCT_NAME = Counteragent;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB26ABC227014AAA00DAEE48 /* Build configuration list for PBXProject "Counteragent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26AC1027014AAB00DAEE48 /* Debug */,
+				EB26AC1127014AAB00DAEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26AC1227014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26AC1327014AAB00DAEE48 /* Debug */,
+				EB26AC1427014AAB00DAEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26AC1627014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26AC1727014AAB00DAEE48 /* Debug */,
+				EB26AC1827014AAB00DAEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26AC1927014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26AC1A27014AAB00DAEE48 /* Debug */,
+				EB26AC1B27014AAB00DAEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB26AC1D27014AAB00DAEE48 /* Build configuration list for PBXNativeTarget "Counteragent (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB26AC1E27014AAB00DAEE48 /* Debug */,
+				EB26AC1F27014AAB00DAEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB26ABBF27014AAA00DAEE48 /* Project object */;
+}

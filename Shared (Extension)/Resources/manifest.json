@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Counteragent",
+    "description": "Counteragent brings sanity back to Meduza",
+    "version": "1.0.2",
+  
+  
+    "icons": {
+    "16": "/images/counteragent16.png",
+    "32": "/images/counteragent32.png",
+    "48": "/images/counteragent48.png",
+    "96": "images/counteragent96.png",
+    "128": "/images/counteragent128.png",
+    "256": "images/counteragent256.png",
+    "512": "images/counteragent512.png",
+    "1024": "images/counteragent1024.png"
+    },
+    
+    "content_scripts": [{
+      "matches": ["https://*.meduza.io/*"],
+      "css": ["counteragent.css"]
+    }],
+    
+    "browser_action": {
+        "default_icon": {
+            "16": "images/counteragent16.png",
+            "19": "images/counteragent19.png",
+            "32": "images/counteragent32.png",
+            "38": "images/counteragent38.png"
+        }
+    },
+
+    "permissions": []
+}
