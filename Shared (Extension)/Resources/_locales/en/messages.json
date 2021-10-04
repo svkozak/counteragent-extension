@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Counteragent",
+        "description": "Extension name"
+    },
+    "extension_description": {
+        "message": "Counteragent removes the 'foreign agent' banner from Meduza in Safari",
+        "description": "Description of what the extension does."
+    }
+}

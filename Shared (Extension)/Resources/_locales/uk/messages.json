@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Контрагент",
+        "description": "Назва розширення"
+    },
+    "extension_description": {
+        "message": "Приховує банер про іноземного агента на сторінках Медузи",
+        "description": "Опис розширення"
+    }
+}

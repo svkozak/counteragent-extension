@@ -1,8 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Counteragent",
-    "description": "Counteragent brings sanity back to Meduza",
+    "default_locale": "en",
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
     "version": "1.0.2",
+    
   
   
     "icons": {

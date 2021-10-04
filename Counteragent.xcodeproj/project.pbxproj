@@ -41,6 +41,10 @@
 		EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
 		EB2FC0C3270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
 		EB2FC0C4270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
+		EB5CC8DD270AC6870024F3F1 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = EB5CC8DC270AC6870024F3F1 /* _locales */; };
+		EB5CC8DE270ACAF00024F3F1 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = EB5CC8DC270AC6870024F3F1 /* _locales */; };
+		EB5CC8E1270ACD450024F3F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB5CC8E3270ACD450024F3F1 /* InfoPlist.strings */; };
+		EB5CC8E8270ACFEB0024F3F1 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = EB5CC8DC270AC6870024F3F1 /* _locales */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +121,12 @@
 		EB26AC2827014AAB00DAEE48 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = Resources/contentScript.js; sourceTree = "<group>"; };
 		EB26AC2927014AAB00DAEE48 /* counteragent.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = counteragent.css; path = Resources/counteragent.css; sourceTree = "<group>"; };
 		EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_vector_512x512.png; sourceTree = "<group>"; };
+		EB5CC8DC270AC6870024F3F1 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		EB5CC8E2270ACD450024F3F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB5CC8E4270ACD9E0024F3F1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = ru; path = ../ru.lproj/Main.html; sourceTree = "<group>"; };
+		EB5CC8E5270ACD9E0024F3F1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB5CC8E6270ACDAA0024F3F1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = uk; path = ../uk.lproj/Main.html; sourceTree = "<group>"; };
+		EB5CC8E7270ACDAA0024F3F1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +223,7 @@
 				EB26ABD927014AAB00DAEE48 /* LaunchScreen.storyboard */,
 				EB26ABDC27014AAB00DAEE48 /* Main.storyboard */,
 				EB26ABDF27014AAB00DAEE48 /* Info.plist */,
+				EB5CC8E3270ACD450024F3F1 /* InfoPlist.strings */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -248,6 +259,7 @@
 		EB26AC2027014AAB00DAEE48 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EB5CC8DC270AC6870024F3F1 /* _locales */,
 				EB26AC2227014AAB00DAEE48 /* background.js */,
 				EB26AC2327014AAB00DAEE48 /* images */,
 				EB26AC2427014AAB00DAEE48 /* manifest.json */,
@@ -367,6 +379,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				uk,
 			);
 			mainGroup = EB26ABBE27014AAA00DAEE48;
 			productRefGroup = EB26ABD327014AAB00DAEE48 /* Products */;
@@ -388,10 +402,12 @@
 			files = (
 				EB26ABDB27014AAB00DAEE48 /* LaunchScreen.storyboard in Resources */,
 				EB26AC0227014AAB00DAEE48 /* Main.html in Resources */,
+				EB5CC8DD270AC6870024F3F1 /* _locales in Resources */,
 				EB26AC0827014AAB00DAEE48 /* Script.js in Resources */,
 				EB26AC0C27014AAB00DAEE48 /* Assets.xcassets in Resources */,
 				EB2FC0C3270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */,
 				EB26ABDE27014AAB00DAEE48 /* Main.storyboard in Resources */,
+				EB5CC8E1270ACD450024F3F1 /* InfoPlist.strings in Resources */,
 				EB26AC0627014AAB00DAEE48 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5CC8DE270ACAF00024F3F1 /* _locales in Resources */,
 				EB26AC3427014AAC00DAEE48 /* images in Resources */,
 				EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */,
 				EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */,
@@ -426,6 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5CC8E8270ACFEB0024F3F1 /* _locales in Resources */,
 				EB26AC2C27014AAC00DAEE48 /* images in Resources */,
 				EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */,
 				EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */,
@@ -493,6 +511,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				EB26ABC627014AAA00DAEE48 /* Base */,
+				EB5CC8E4270ACD9E0024F3F1 /* ru */,
+				EB5CC8E6270ACDAA0024F3F1 /* uk */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
@@ -521,6 +541,16 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		EB5CC8E3270ACD450024F3F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5CC8E2270ACD450024F3F1 /* en */,
+				EB5CC8E5270ACD9E0024F3F1 /* ru */,
+				EB5CC8E7270ACDAA0024F3F1 /* uk */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -528,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -587,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

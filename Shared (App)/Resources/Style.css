@@ -59,6 +59,10 @@ body.state-off :is(.state-on, .state-unknown) {
     display: none;
 }
 
+.left {
+    text-align: left;
+}
+
 .small {
     font-size: 0.8rem;
 }

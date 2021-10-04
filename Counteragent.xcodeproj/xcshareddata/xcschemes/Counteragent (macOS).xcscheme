@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB26ABD127014AAB00DAEE48"
+               BlueprintIdentifier = "EB26ABE327014AAB00DAEE48"
                BuildableName = "Counteragent.app"
-               BlueprintName = "Counteragent (iOS)"
+               BlueprintName = "Counteragent (macOS)"
                ReferencedContainer = "container:Counteragent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB26ABD127014AAB00DAEE48"
+            BlueprintIdentifier = "EB26ABE327014AAB00DAEE48"
             BuildableName = "Counteragent.app"
-            BlueprintName = "Counteragent (iOS)"
+            BlueprintName = "Counteragent (macOS)"
             ReferencedContainer = "container:Counteragent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,9 +63,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB26ABD127014AAB00DAEE48"
+            BlueprintIdentifier = "EB26ABE327014AAB00DAEE48"
             BuildableName = "Counteragent.app"
-            BlueprintName = "Counteragent (iOS)"
+            BlueprintName = "Counteragent (macOS)"
             ReferencedContainer = "container:Counteragent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
