@@ -17,8 +17,6 @@
 		EB26ABFC27014AAB00DAEE48 /* Counteragent Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EB26AC0227014AAB00DAEE48 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC527014AAA00DAEE48 /* Main.html */; };
 		EB26AC0327014AAB00DAEE48 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC527014AAA00DAEE48 /* Main.html */; };
-		EB26AC0427014AAB00DAEE48 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC727014AAA00DAEE48 /* Icon.png */; };
-		EB26AC0527014AAB00DAEE48 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC727014AAA00DAEE48 /* Icon.png */; };
 		EB26AC0627014AAB00DAEE48 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC827014AAA00DAEE48 /* Style.css */; };
 		EB26AC0727014AAB00DAEE48 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC827014AAA00DAEE48 /* Style.css */; };
 		EB26AC0827014AAB00DAEE48 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABC927014AAA00DAEE48 /* Script.js */; };
@@ -41,6 +39,8 @@
 		EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
 		EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
 		EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
+		EB2FC0C3270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
+		EB2FC0C4270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,6 @@
 
 /* Begin PBXFileReference section */
 		EB26ABC627014AAA00DAEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		EB26ABC727014AAA00DAEE48 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		EB26ABC827014AAA00DAEE48 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		EB26ABC927014AAA00DAEE48 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		EB26ABCA27014AAA00DAEE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 		EB26AC2727014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		EB26AC2827014AAB00DAEE48 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = Resources/contentScript.js; sourceTree = "<group>"; };
 		EB26AC2927014AAB00DAEE48 /* counteragent.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = counteragent.css; path = Resources/counteragent.css; sourceTree = "<group>"; };
+		EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_vector_512x512.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,8 +177,8 @@
 		EB26ABC427014AAA00DAEE48 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */,
 				EB26ABC527014AAA00DAEE48 /* Main.html */,
-				EB26ABC727014AAA00DAEE48 /* Icon.png */,
 				EB26ABC827014AAA00DAEE48 /* Style.css */,
 				EB26ABC927014AAA00DAEE48 /* Script.js */,
 			);
@@ -386,11 +386,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB26AC0427014AAB00DAEE48 /* Icon.png in Resources */,
 				EB26ABDB27014AAB00DAEE48 /* LaunchScreen.storyboard in Resources */,
 				EB26AC0227014AAB00DAEE48 /* Main.html in Resources */,
 				EB26AC0827014AAB00DAEE48 /* Script.js in Resources */,
 				EB26AC0C27014AAB00DAEE48 /* Assets.xcassets in Resources */,
+				EB2FC0C3270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */,
 				EB26ABDE27014AAB00DAEE48 /* Main.storyboard in Resources */,
 				EB26AC0627014AAB00DAEE48 /* Style.css in Resources */,
 			);
@@ -400,10 +400,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB26AC0527014AAB00DAEE48 /* Icon.png in Resources */,
 				EB26AC0727014AAB00DAEE48 /* Style.css in Resources */,
 				EB26ABEA27014AAB00DAEE48 /* Main.storyboard in Resources */,
 				EB26AC0927014AAB00DAEE48 /* Script.js in Resources */,
+				EB2FC0C4270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */,
 				EB26AC0D27014AAB00DAEE48 /* Assets.xcassets in Resources */,
 				EB26AC0327014AAB00DAEE48 /* Main.html in Resources */,
 			);
@@ -640,6 +640,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
@@ -670,6 +671,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Counteragent Extension";
@@ -704,6 +706,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
@@ -741,6 +744,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Counteragent;
@@ -777,6 +781,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -808,6 +813,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -842,6 +848,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -877,6 +884,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";

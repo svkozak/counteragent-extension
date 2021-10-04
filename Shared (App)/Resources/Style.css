@@ -26,6 +26,9 @@ body {
 
     font: -apple-system-short-body;
     text-align: center;
+    
+    background-color: black;
+    color: #B88A56;
 }
 
 body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
@@ -54,6 +57,10 @@ body.state-on :is(.state-off, .state-unknown) {
 
 body.state-off :is(.state-on, .state-unknown) {
     display: none;
+}
+
+.small {
+    font-size: 0.8rem;
 }
 
 button {
