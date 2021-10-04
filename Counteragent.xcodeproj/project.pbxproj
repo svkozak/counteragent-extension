@@ -29,20 +29,16 @@
 		EB26AC0D27014AAB00DAEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */; };
 		EB26AC0E27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
 		EB26AC0F27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
-		EB26AC2A27014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
 		EB26AC2B27014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
 		EB26AC2C27014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
 		EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
 		EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
-		EB26AC2F27014AAC00DAEE48 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2727014AAB00DAEE48 /* Info.plist */; };
 		EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
 		EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
-		EB26AC3227014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
 		EB26AC3327014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
 		EB26AC3427014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
 		EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
 		EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
-		EB26AC3727014AAC00DAEE48 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2727014AAB00DAEE48 /* Info.plist */; };
 		EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
 		EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
 /* End PBXBuildFile section */
@@ -113,7 +109,6 @@
 		EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Counteragent Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB26AC0027014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB26AC0127014AAB00DAEE48 /* Counteragent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Counteragent.entitlements; sourceTree = "<group>"; };
-		EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SafariWebExtensionHandler.swift; path = Resources/SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		EB26AC2227014AAB00DAEE48 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
 		EB26AC2327014AAB00DAEE48 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
 		EB26AC2427014AAB00DAEE48 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
@@ -253,7 +248,6 @@
 		EB26AC2027014AAB00DAEE48 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EB26AC2127014AAB00DAEE48 /* SafariWebExtensionHandler.swift */,
 				EB26AC2227014AAB00DAEE48 /* background.js */,
 				EB26AC2327014AAB00DAEE48 /* images */,
 				EB26AC2427014AAB00DAEE48 /* manifest.json */,
@@ -424,7 +418,6 @@
 				EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */,
 				EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */,
 				EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */,
-				EB26AC3727014AAC00DAEE48 /* Info.plist in Resources */,
 				EB26AC3327014AAC00DAEE48 /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +431,6 @@
 				EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */,
 				EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */,
 				EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */,
-				EB26AC2F27014AAC00DAEE48 /* Info.plist in Resources */,
 				EB26AC2B27014AAC00DAEE48 /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB26AC0E27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
-				EB26AC3227014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +470,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB26AC0F27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
-				EB26AC2A27014AAC00DAEE48 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,7 +659,7 @@
 				PRODUCT_NAME = "Counteragent Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -699,7 +689,7 @@
 				PRODUCT_NAME = "Counteragent Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -873,7 +863,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
 				PRODUCT_NAME = Counteragent;
 				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -908,7 +898,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.maybelater.Counteragent;
 				PRODUCT_NAME = Counteragent;
 				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
