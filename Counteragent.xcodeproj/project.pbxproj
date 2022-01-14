@@ -27,17 +27,13 @@
 		EB26AC0D27014AAB00DAEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB26ABCB27014AAB00DAEE48 /* Assets.xcassets */; };
 		EB26AC0E27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
 		EB26AC0F27014AAB00DAEE48 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26ABCD27014AAB00DAEE48 /* SafariWebExtensionHandler.swift */; };
-		EB26AC2B27014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
 		EB26AC2C27014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
 		EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
 		EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
-		EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
 		EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
-		EB26AC3327014AAC00DAEE48 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2227014AAB00DAEE48 /* background.js */; };
 		EB26AC3427014AAC00DAEE48 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2327014AAB00DAEE48 /* images */; };
 		EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2427014AAB00DAEE48 /* manifest.json */; };
 		EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2527014AAB00DAEE48 /* counteragent.png */; };
-		EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2827014AAB00DAEE48 /* contentScript.js */; };
 		EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */ = {isa = PBXBuildFile; fileRef = EB26AC2927014AAB00DAEE48 /* counteragent.css */; };
 		EB2FC0C3270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
 		EB2FC0C4270A8E2E00FF8F92 /* icon_vector_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */; };
@@ -112,13 +108,11 @@
 		EB26ABFB27014AAB00DAEE48 /* Counteragent Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Counteragent Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB26AC0027014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB26AC0127014AAB00DAEE48 /* Counteragent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Counteragent.entitlements; sourceTree = "<group>"; };
-		EB26AC2227014AAB00DAEE48 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
 		EB26AC2327014AAB00DAEE48 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
 		EB26AC2427014AAB00DAEE48 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 		EB26AC2527014AAB00DAEE48 /* counteragent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counteragent.png; path = Resources/counteragent.png; sourceTree = "<group>"; };
 		EB26AC2627014AAB00DAEE48 /* Counteragent_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Counteragent_Extension.entitlements; path = Resources/Counteragent_Extension.entitlements; sourceTree = "<group>"; };
 		EB26AC2727014AAB00DAEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
-		EB26AC2827014AAB00DAEE48 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = Resources/contentScript.js; sourceTree = "<group>"; };
 		EB26AC2927014AAB00DAEE48 /* counteragent.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = counteragent.css; path = Resources/counteragent.css; sourceTree = "<group>"; };
 		EB2FC0C2270A8E2E00FF8F92 /* icon_vector_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_vector_512x512.png; sourceTree = "<group>"; };
 		EB5CC8DC270AC6870024F3F1 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
@@ -260,13 +254,11 @@
 			isa = PBXGroup;
 			children = (
 				EB5CC8DC270AC6870024F3F1 /* _locales */,
-				EB26AC2227014AAB00DAEE48 /* background.js */,
 				EB26AC2327014AAB00DAEE48 /* images */,
 				EB26AC2427014AAB00DAEE48 /* manifest.json */,
 				EB26AC2527014AAB00DAEE48 /* counteragent.png */,
 				EB26AC2627014AAB00DAEE48 /* Counteragent_Extension.entitlements */,
 				EB26AC2727014AAB00DAEE48 /* Info.plist */,
-				EB26AC2827014AAB00DAEE48 /* contentScript.js */,
 				EB26AC2927014AAB00DAEE48 /* counteragent.css */,
 			);
 			name = Resources;
@@ -356,7 +348,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					EB26ABD127014AAB00DAEE48 = {
 						CreatedOnToolsVersion = 13.0;
@@ -434,8 +426,6 @@
 				EB26AC3527014AAC00DAEE48 /* manifest.json in Resources */,
 				EB26AC3627014AAC00DAEE48 /* counteragent.png in Resources */,
 				EB26AC3927014AAC00DAEE48 /* counteragent.css in Resources */,
-				EB26AC3827014AAC00DAEE48 /* contentScript.js in Resources */,
-				EB26AC3327014AAC00DAEE48 /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +438,6 @@
 				EB26AC2D27014AAC00DAEE48 /* manifest.json in Resources */,
 				EB26AC2E27014AAC00DAEE48 /* counteragent.png in Resources */,
 				EB26AC3127014AAC00DAEE48 /* counteragent.css in Resources */,
-				EB26AC3027014AAC00DAEE48 /* contentScript.js in Resources */,
-				EB26AC2B27014AAC00DAEE48 /* background.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -683,7 +671,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -702,7 +690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -714,7 +702,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -737,7 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -752,7 +740,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -775,7 +763,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -790,7 +778,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -811,8 +799,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -825,7 +814,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -843,8 +832,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Counteragent.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -857,7 +847,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -875,11 +865,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -893,7 +885,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -912,11 +904,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MacIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Counteragent.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = AM6YCEQCTE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -930,7 +924,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

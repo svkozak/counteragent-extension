@@ -3,34 +3,32 @@
     "default_locale": "en",
     "name": "__MSG_extension_name__",
     "description": "__MSG_extension_description__",
-    "version": "1.0.2",
-    
-  
-  
+    "version": "1.1",
     "icons": {
-    "16": "/images/counteragent16.png",
-    "32": "/images/counteragent32.png",
-    "48": "/images/counteragent48.png",
-    "96": "images/counteragent96.png",
-    "128": "/images/counteragent128.png",
-    "256": "images/counteragent256.png",
-    "512": "images/counteragent512.png",
-    "1024": "images/counteragent1024.png"
+        "48": "/images/Icon-48.png",
+        "96": "images/Icon-96.png",
+        "128": "/images/Icon-128.png",
+        "256": "images/Icon-256.png",
+        "512": "images/Icon-512.png"
     },
-    
     "content_scripts": [{
-      "matches": ["https://*.meduza.io/*"],
+      "matches": [
+        "https://*.meduza.io/*",
+        "https://*.tvrain.ru/*",
+        "https://*.istories.media/*",
+        "https://*.zona.media/*",
+        "https://*.republic.ru/*",
+        "https://*.rosbalt.ru/*"
+      ],
       "css": ["counteragent.css"]
     }],
-    
     "browser_action": {
         "default_icon": {
-            "16": "images/counteragent16.png",
-            "19": "images/counteragent19.png",
-            "32": "images/counteragent32.png",
-            "38": "images/counteragent38.png"
+            "16": "images/Toolbar-16.png",
+            "19": "images/Toolbar-19.png",
+            "32": "images/Toolbar-32.png",
+            "38": "images/Toolbar-38.png"
         }
     },
-
     "permissions": []
 }

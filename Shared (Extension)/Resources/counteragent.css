@@ -1,3 +1,37 @@
+/* Meduza */
 #div-gpt-ad {
+    display: none !important;
+}
+
+/* TV Rain */
+[class*="foreign_agent"] {
+    display: none !important;
+}
+
+[class*="foreign-agent"] {
+    display: none !important;
+}
+
+/* Istories - Important Stories */
+
+[class*="ForeignAgent"] {
+    display: none !important;
+}
+
+/* Zona.media */
+
+[class*="mz-agent-banner"] {
+    display: none !important;
+}
+
+/* Republic.ru */
+
+[class*="ino_agent"] {
+    display: none !important;
+}
+
+/* rosbalt.ru */
+
+[class*="rkngov"] {
     display: none !important;
 }
